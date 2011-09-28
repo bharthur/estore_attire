@@ -1,0 +1,40 @@
+<div class = "body">
+	<div class = "sidepane">
+		<div class="category">
+			<ul>
+				<li id="heading">
+					<%= link_to "Categories", "#" %>
+					<ul>
+						<li>
+							<%= link_to "Men", "#" %>
+							<ul>
+								<li><%= link_to "Shirts", "#" %></li>
+								<li><%= link_to "Trousers", "#" %></li>
+								<li><%= link_to "Shorts", "#" %></li>
+							</ul>
+						</li>
+						<li>
+							<%= link_to "Women", "#" %>
+							<ul>
+								<li><%= link_to "Saree", "#" %></li>
+								<li><%= link_to "Salwar", "#" %></li>
+								<li><%= link_to "Shirts", "#" %></li>
+								<li><%= link_to "Trousers", "#" %></li>
+							</ul>
+						</li>
+						<li>
+							<%= link_to "Kids", "#" %>
+							<ul>
+								<li><%= link_to "Shirts", "#" %></li>
+								<li><%= link_to "Trousers", "#" %></li>
+								<li><%= link_to "Shorts", "#" %></li>
+							</ul>
+						</li>
+						
+					</ul>
+				</li>
+				
+			</ul>
+		</div>
+	</div>
+</div>
